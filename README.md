@@ -1,2 +1,2 @@
-# frontend-notetaker-app
+# frontend-notemaker-app
 Frontend for notemaker
