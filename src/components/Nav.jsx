@@ -11,7 +11,7 @@ function Nav(props) {
 
     const handleDeleteAll =()=>{
         alert("Are you Sure to delete all data")
-        fetch("https://note-backend-vvfj.onrender.com/v1/post", {
+        fetch("https://note-taker-application-oav4.onrender.com/v1/post", {
             method:"delete",
             headers: {
                 "Authorization":token

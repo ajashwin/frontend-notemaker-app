@@ -8,7 +8,7 @@ function Card(props) {
     let month = ["Jan", "Feb", "March", "April", "May", "June", "July", "August", "Sept", "Oct", "Nov", "Dec"]
     const token = JSON.parse(localStorage.getItem("notToken"))
     const handleCardDelete =(id)=>{
-        fetch(`https://note-backend-vvfj.onrender.com/v1/post/${id}`, {
+        fetch(`https://note-taker-application-oav4.onrender.com/v1/post/${id}`, {
             method:"delete",
             headers: {
                 "Authorization":token

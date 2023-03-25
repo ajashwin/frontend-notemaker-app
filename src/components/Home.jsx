@@ -15,7 +15,7 @@ function Home(props) {
         if(!token){
            return navigate("/") 
         }
-        fetch("https://note-backend-vvfj.onrender.com/v1/post", {
+        fetch("https://note-taker-application-oav4.onrender.com/v1/post", {
             method:"get",
             headers: {
                 "Authorization":token
@@ -36,7 +36,7 @@ function Home(props) {
     const handleSearch = (e)=>{
         let id = e.target.value
         if(id){
-        fetch(`https://note-backend-vvfj.onrender.com/v1/post/${id}`, {
+        fetch(`https://note-taker-application-oav4.onrender.com/v1/post/${id}`, {
             method:"get",
             headers: {
                 "Authorization":token

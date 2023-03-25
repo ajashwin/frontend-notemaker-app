@@ -7,7 +7,7 @@ function Signin(props) {
     const [rem, setRem] = useState("off")
     const handleSubmit=(e)=>{
         e.preventDefault()
-           fetch("https://note-backend-vvfj.onrender.com/v1/login", {
+           fetch("https://note-taker-application-oav4.onrender.com/v1/login", {
             method:"post",
             headers: {
                 'Accept': 'application/json',
@@ -54,7 +54,7 @@ function Signin(props) {
                 </div>
                 <div className='forgot'>
                     <p>Forgot<span style={{color:"blue"}}>password?</span></p>
-                    <Link to={"/signup"}>Click to Sign Up</Link>
+                    <Link to={"/signup"}>Sign Up</Link>
                 </div>
             </form>
         </div>

@@ -13,7 +13,7 @@ function Signup(props) {
             return alert("password and confirm password must be matched")
         }
         else{
-           fetch("https://note-backend-vvfj.onrender.com/v1/register", {
+           fetch("https://note-taker-application-oav4.onrender.com/v1/register", {
             method:"post",
             headers: {
                 'Accept': 'application/json',
@@ -54,7 +54,7 @@ function Signup(props) {
                     <button >Submit</button>
                 </div>
                 <div className='forgot'>
-                    <Link to={"/"}>Click to SignIN</Link>
+                    <Link to={"/"}>SignIN</Link>
                 </div>
             </form>
         </div>

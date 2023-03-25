@@ -1,7 +1,7 @@
 .add-container{
     width: 100vw;
     height: 92vh;
-    background-color: rgb(235, 186, 186);
+    background-color: rgb(164, 30, 231);
     display: flex;
     justify-content: center;
     padding: 0px 100px;
@@ -26,7 +26,7 @@
 .add-form div>button{
     width: 100%;
     cursor: pointer;
-    background-color: rgb(72, 72, 223);
+    background-color: rgb(83, 83, 202);
     color: aliceblue;
     height: 2rem;
 } 

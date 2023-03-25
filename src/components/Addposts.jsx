@@ -9,7 +9,7 @@ function Addposts(props) {
     
     const handleData = (e)=>{
         e.preventDefault()
-        fetch("https://note-backend-vvfj.onrender.com/v1/post", {
+        fetch("https://note-taker-application-oav4.onrender.com/v1/post", {
             method:"post",
             headers: {
                 'Accept': 'application/json',
