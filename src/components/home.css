@@ -1,0 +1,49 @@
+nav{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(115, 204, 216);
+    color: aliceblue;
+    padding: 0pc 100px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+}
+nav ul li, .links{
+    margin: 0px 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+.links{
+    text-decoration: none;   
+}
+.home-container{
+    margin: 0px;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: pink;
+    padding: 0px 100px;
+}
+
+.cards{
+    margin: 1rem;
+    min-width: 600px;
+    max-width: 800px;
+    background-color: dodgerblue;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.search{
+    width: 100%;
+    margin: 1rem;
+}
+.search input{
+    width: 70%;
+    height: 2rem;
+    border-radius: 1rem;
+    padding:0px 1rem ;
+}

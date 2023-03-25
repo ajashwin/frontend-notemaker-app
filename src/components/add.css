@@ -1,0 +1,32 @@
+.add-container{
+    width: 100vw;
+    height: 92vh;
+    background-color: rgb(235, 186, 186);
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px;
+    align-items: center;
+}
+.add-form{
+    max-width: 700px;
+    min-width: 500px;
+    
+}
+.add-form div{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: 600;
+    margin: 1rem;
+}
+.add-form div input{
+    padding: 0.5rem;
+    color: black;
+}
+.add-form div>button{
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(72, 72, 223);
+    color: aliceblue;
+    height: 2rem;
+} 
